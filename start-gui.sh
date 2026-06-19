@@ -30,7 +30,7 @@ git clone https://github.com/novnc/noVNC.git ~/noVNC
 
 # 启动 noVNC 代理
 echo "启动 noVNC，监听端口 6080..."
-cd ~/noVNC/utils
+cd ~/noVNC/utilscd /home/codespace/noVNC
 ./novnc_proxy --vnc localhost:5901 &
 
 echo ""
