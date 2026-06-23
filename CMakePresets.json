@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "web",
+      "displayName": "Web (Emscripten)",
+      "description": "Build for WebAssembly using Emscripten",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/build_web",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "$env{HOME}/noVNC/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake",
+        "PLATFORM": "Web",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ]
+}

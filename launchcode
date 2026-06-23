@@ -1,0 +1,3 @@
+mkdir -p build_web && cd build_web
+emcmake cmake .. -DPLATFORM=Web -DCMAKE_BUILD_TYPE=Release
+make -j4
