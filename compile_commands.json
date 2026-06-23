@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/codespace/my_game/build_web",
+  "command": "/home/codespace/noVNC/emsdk/upstream/emscripten/em++ -DGRAPHICS_API_OPENGL_ES2 -DPLATFORM_WEB -I/src -O3 -DNDEBUG -o CMakeFiles/main.dir/main.cpp.o -c /home/codespace/my_game/main.cpp",
+  "file": "/home/codespace/my_game/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+}
+]
